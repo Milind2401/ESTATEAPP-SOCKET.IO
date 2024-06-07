@@ -20,7 +20,6 @@ const removeUser = (socketId) => {
 };
 
 const getUser = (userId) => {
-  console.log(onlineUser);
   return onlineUser.find((user) => user.userId === userId);
 };
 
